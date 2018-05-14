@@ -31,7 +31,7 @@ struct Pet : public Cat, public Dog, public Gecko
 {
 	void printNames()
 	{
-        cout << "Name of the gecko is " << geckoN << endl;
+        	cout << "Name of the gecko is " << geckoN << endl;
 		cout << "Name of the cat is " << catN << endl;
 		cout << "Name of the dog is " << dogN << endl;
 	}
